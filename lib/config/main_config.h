@@ -33,3 +33,7 @@ enum DeviceMode {
 /* ================= ULTRASONIC ================= */
 #define TRIG_PIN 27
 #define ECHO_PIN 26
+
+/* ================= OTHERS ================= */
+unsigned long lastSend = 0;
+unsigned long interval = 5000;

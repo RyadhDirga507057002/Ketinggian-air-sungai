@@ -16,8 +16,7 @@ private:
     LoRaHandler lora;
     UltrasonicHandler ultrasonic;
 
-    unsigned long lastSend = 0;
-    unsigned long interval = 5000;
+    
     int counter = 0;
 
     void nodeLoop();
